@@ -848,7 +848,7 @@ class Sensei_Course {
  				// Display Image Placeholder if none
 				if ( Sensei()->settings->get( 'placeholder_images_enable' ) ) {
 
-                    $img_url = apply_filters( 'sensei_course_placeholder_image_url', '<img src="http://placehold.it/' . $width . 'x' . $height . '" class="woo-image thumbnail alignleft" />' );
+                    $img_url = apply_filters( 'sensei_course_placeholder_image_url', '<img src="//placehold.it/' . $width . 'x' . $height . '" class="woo-image thumbnail alignleft" />' );
 
 				} // End If Statement
 
